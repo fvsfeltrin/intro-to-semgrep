@@ -3,7 +3,7 @@
 // repo, it's not going to be covered by any tool
 // out of the box. But no problem, this is easy with Semgrep!
 function my_eval(str) {
-    eval(str);
+    my_eval(str);
 }
 
 // Match a variable as an argument
